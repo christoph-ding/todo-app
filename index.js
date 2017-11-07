@@ -1,1 +1,4 @@
-document.write("It works.");
+let msg = 'hey'
+
+document.write('hello');
+console.log(msg)
