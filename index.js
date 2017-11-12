@@ -1,4 +1,9 @@
-let msg = 'hey'
+import React, { Component } from 'react';
 
-document.write('hello');
-console.log(msg)
+class Hello extends React.Component {
+  render() {
+    return <h1>Hello</h1>
+  }
+}
+ 
+ReactDOM.render(<Hello/>, document.getElementById('hello'));
