@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import {render} from 'react-dom'
 
-class Hello extends React.Component {
-  render() {
-    return <h1>Hello</h1>
-  }
-}
+import {App} from './src/app'
  
-ReactDOM.render(<Hello/>, document.getElementById('hello'));
+render(<App />, document.getElementById('app'));
