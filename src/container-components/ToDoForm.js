@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
 export class ToDoForm extends React.Component {
-  render(
-    <h1> ToDoForm </h1>
-  )
+  render() {
+    return (
+      <h1> to do form </h1>
+    )
+  }
 }
