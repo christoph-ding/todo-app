@@ -1,12 +1,8 @@
-export const testFunction = () => ({
+function addToDo = () => ({
   return {
-    type: "HELLO_WORLD_REDUX",
+    type: 'ADD_TODO',
     text
   }
-})
-
-function addToDo = () => ({
-
 })
 
 function removeToDo = () => ({
