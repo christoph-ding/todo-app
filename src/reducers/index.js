@@ -1,17 +1,17 @@
+import {addTodo} from '../actions'
+
+console.log(addTodo)
+
 const initialState = {
   todos: []
 }
 
-// function todoApp(state, action) {
-//   if (typeof state==='undefined') {
-//     return initialState
-//   }
-
-//   return state
-// }
-
-// ... is just
-
 function todoApp(state = initialState, action) {
-  return state
+  switch (action.type) {
+    case ADD_TODO:
+      const newState = state.slice()
+      const i = action.new
+    default: 
+      return state
+  }
 }
